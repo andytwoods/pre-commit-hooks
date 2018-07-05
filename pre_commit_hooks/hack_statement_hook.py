@@ -7,7 +7,7 @@ import collections
 import traceback
 
 
-DEBUG_STATEMENTS = {'pdb', 'ipdb', 'pudb', 'q', 'rdb'}
+DEBUG_STATEMENTS = {'hack'}
 Debug = collections.namedtuple('Debug', ('line', 'col', 'name', 'reason'))
 
 
